@@ -12,3 +12,6 @@ make -jn
 
 n is number of cpu core.
 (ex: 4 core -> make -j4)
+
+run is auto run simulation and auto end simulation. 
+this file is use for autorun.sh
