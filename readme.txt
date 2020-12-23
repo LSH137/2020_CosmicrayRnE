@@ -18,7 +18,7 @@ This repository is for sharing the source code which writed to do Cosmic ray R&E
   
 4. Graph_SimulationData
   AdvencedSimulation.C : draw histogram and get excess / total and draw graph excess/total by energy
-                          we simulate electron, muon and proton for 0.1MeV ~ 20MeV with interver 0.1MeV. this file read simulation data file and draw three graph(mu, e, p) on one canvas.
+                          we simulate electron, muon and proton for 0.1MeV ~ 20MeV with interver 0.1MeV. this file read simulation data file and draw three graph(mu, e, proton) on one canvas.
   Constant.h : same purpose with upper one.
   
 5. program
@@ -29,3 +29,5 @@ This repository is for sharing the source code which writed to do Cosmic ray R&E
     5.5 autorun_myLaptop : autorun Geant4 simulation which made by Advenced_G4Make or Advenced_LowEnergy_G4Make.
     5.6 OldVersionProess: Source code which used previous cosmic ray research.
  
+6. Geant4_sample
+  sample project. other Geant4 projects are all same except energy and type of particle(mu, e, proton)
