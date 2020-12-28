@@ -1,1 +1,16 @@
 a file for visualization options. we don't use visualization when we do simulation.
+You have to delete all this command when you build and run this project. If not, there will be a error message from Geant4.
+
+"/vis/list" to see available colours.
+Available UI session types: [ GAG, tcsh, csh ]
+***** COMMAND NOT FOUND <a file for visualization options. we don't use visualization when we do simulation.> *****
+
+***** Batch is interrupted!! *****
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : UIMAN0123
+      issued by : G4UImanager::ApplyCommand
+Command aborted (100)
+Error code : 100
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
